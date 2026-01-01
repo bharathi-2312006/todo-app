@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #667eea, #764ba2);
+    min-height: 100vh;
+}
+
+/* Login & Signup box */
+.box {
+    width: 320px;
+    background: #ffffff;
+    padding: 25px;
+    margin: 120px auto;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.box h2 {
+    margin-bottom: 20px;
+}
+
+.box input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.box button {
+    width: 100%;
+    padding: 10px;
+    background: #667eea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.box button:hover {
+    background: #5a67d8;
+}
+
+.box p {
+    margin-top: 15px;
+}
+
+.box a {
+    color: #667eea;
+    text-decoration: none;
+}
+
+/* Navigation bar */
+.nav {
+    background: #111;
+    padding: 12px;
+    text-align: center;
+}
+
+.nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+/* Content area */
+.content {
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.content button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: white;
+    color: #667eea;
+}
+
+.content button:hover {
+    background: #f0f0f0;
+}
